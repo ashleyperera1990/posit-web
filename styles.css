@@ -59,11 +59,12 @@
 
     display: block;
     position: relative;
-    width: 30%;
+    width: 70%;
     height: 0;
 }
 .blurred-container .motto-2 .img-src {
     margin-top: -120px;
+    margin-left: 10px;
     height:520px;
 }
 
@@ -105,6 +106,12 @@
     color: #ffbd59;
 }
 
+@media (max-width: 1268px){
+    .blurred-container .motto-2 {
+        width: 40%;
+    }
+}
+
 @media (max-width: 768px){
     .navbar {
         margin-top: 0;
@@ -128,6 +135,7 @@
     }
     .blurred-container .motto-2 {
         display: none;
+        width: 40%;
     }
 }
 
@@ -144,5 +152,6 @@
 
     .blurred-container .motto-2 {
         display: none;
+
     }
 }
