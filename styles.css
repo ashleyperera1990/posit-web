@@ -21,6 +21,12 @@
 
 }
 
+.img-src-2 {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+}
 .posit-img {
     margin-top: -150px;
     height: 500px;
@@ -118,7 +124,7 @@
     }
     .blurred-container .motto{
         font-size: 60px;
-        top: 130px;
+        top: 50px;
         text-align: center;
         width: 50%;
         margin-left: auto;
@@ -145,13 +151,13 @@
     }
     .blurred-container .motto{
         font-size: 60px;
-        top: 130px;
+        top: 50px;
         width: 100%;
         margin-left: auto;
     }
 
     .blurred-container .motto-2 {
         display: none;
-
     }
+
 }
