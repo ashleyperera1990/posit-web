@@ -13,8 +13,8 @@
 
 .well {
     background-color: black;
-    min-height: 700px;
-    height: 80vh;
+    min-height: 450px;
+    height: 50vh;
 }
 
 .footer {
@@ -48,6 +48,25 @@
     width: 70%;
     height: 0;
 }
+
+.blurred-container .motto-2{
+    color: #FFFFFF;
+    font-size: 76px;
+    text-align: left;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
+    top: 100px;
+    z-index: 3;
+
+    display: block;
+    position: relative;
+    width: 30%;
+    height: 0;
+}
+.blurred-container .motto-2 .img-src {
+    margin-top: -120px;
+    height:520px;
+}
+
 .blurred-container .motto .border{
     float: left;
     border: 3px solid #FFFFFF;
@@ -107,6 +126,9 @@
     .blurred-container .motto .header-text-3 {
         font-size: calc(1rem + .9vw);
     }
+    .blurred-container .motto-2 {
+        display: none;
+    }
 }
 
 @media (max-width: 576px){
@@ -118,5 +140,9 @@
         top: 130px;
         width: 100%;
         margin-left: auto;
+    }
+
+    .blurred-container .motto-2 {
+        display: none;
     }
 }
